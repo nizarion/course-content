@@ -284,12 +284,12 @@ Group projects are offered for the *interactive track* only and will be running 
 
 |    Time (Hour)   |    Lecture                            |    Details                                                            |
 |------------------|---------------------------------------|-----------------------------------------------------------------------|
-|    -0:30-0:00\*   |    Intro / keynote & tutorial setup   |    Problem formulations: actor-critic                                 |
+|    -0:30-0:00\*   |    Intro / keynote & tutorial setup   |    We want reward now and in the future...                           |
 |    0:00-0:15     |    Pod Discussion I                   |    Lecture discussion with pod TA                                     |
-|    0:20-1:35     |    Tutorials + nano-lectures I        |    Critic: reward prediction error, Exploration (POMDP) vs exploitation |
+|    0:20-1:35     |    Tutorials + nano-lectures I        |    Predicting rewards, learning to act in one-step tasks, Exploration vs exploitation |
 |    1:35-1:55     |    Pod Discussion II                  |    Discussion with pod TA                                             |
 |    1:55-2:55     |    Big break                          |    BREAK                                                              |
-|    2:55-4:10     |    Tutorials + nano-lectures II       |    Model-based vs model-free RL, Multi-arm bandits: foraging          |
+|    2:55-4:10     |    Tutorials + nano-lectures II       |    Learning to act in multi-step tasks, on-policy vs. off-policy control, Model-based vs model-free RL          |
 |    4:10-4:30     |    Pod Discussion III                 |    Discussion with pod TA                                             |
 |    4:35-5:05**     |    Outro                              |    Recap session, RL and the brain                                    |
 |    5:05-6:05     |    Q&A                                |    Q&A with lecturers/Mentors                                         |
@@ -404,20 +404,22 @@ Group projects are offered for the *interactive track* only and will be running 
 
 ### Fri, July 31: Deep Learning 2
 
-**Description** Deep learning in more advanced settings. Autoencoders for structure discovery, RNNs, and fitting them to brains
+**Description** Deep learning and autoencoders for structure discovery + end-of-course celebration
 
 |    Time (Hour)   |    Lecture                            |    Details                                                            |
-|------------------|---------------------------------------|-----------------------------------------------------------------------|
-|    -0:30-0:00\*   |    Intro / keynote & tutorial setup   |    DL for structure                                                   |
-|    0:00-0:15     |    Pod Discussion I                   |    Lecture discussion with pod TA                                     |
-|    0:20-1:35     |    Tutorials + nano-lectures I        |    Variational autoencorders and uses in Neuroscience                 |
-|    1:35-1:55     |    Pod Discussion II                  |    Discussion with pod TA                                             |
-|    1:55-2:55     |    Big break                          |    BREAK                                                              |
-|    2:55-4:10     |    Tutorials + nano-lectures II       |    NMA wrap-up                                                        |
-|    4:10-4:30     |    Pod Discussion III                 |    Discussion with pod TA                                             |
-|    4:35-5:05**     |    Outro                              |    Recap session, Digging deeper                                      |
-|    5:05-6:05     |    Q&A                                |    Q&A with lecturers/Mentors                                         |
-|    6:00-7:00     |    Social Activity                    |    Hangout in Mozilla Hubs                                            |
+--------------------|--------------------------------------|------------------------------------------------------------------------|
+|-0:30-0:00\*		| Intro					| DL for structure |
+|0:00-0:15		| Pod Discussion I		| Lecture discussion with pod TA |
+|0:20-1:40		|Tutorial 				| Variational autoencorders and uses in Neuroscience |
+|1:45-1:55		| Pod Discussion II		| Discussion with pod TA |
+|1:55-2:55		| Big Break				|                                             |
+|3:00-3:30**		| Outro					| Application of DL autoencoders |
+|3:35-4:05		| Faculty QA				| Shortened QA |
+|4:05-4:30		| Evals					| Fill in our end of term evaluation survey |
+|4:30-5:15		| Project presentations	| Presentation and discussion of projects in small groups in your superpod |
+|5:15-5:30		| Pod farewell			| Closing discussion of NMA with your pod |
+|5:40-6:10		| NMA project highlights	| Highlights and discussion of the project experience |
+|6:15-7:00		| NMA closing 			| Celebration, shared experience, credits, memories, call to action and the future! |
 
 \* the Intro / keynote will be watched asynchronously, which means that you can watch this lecture before the start of the day
 \** please watch the Outro on your own after having completed the tutorials and before the Q&A session
@@ -436,36 +438,34 @@ Group projects are offered for the *interactive track* only and will be running 
 * Meet people that are local to you (same city, country)
 
 ----
-
-
 # Professional Development Sessions
-These are hour-long Crowdcast events with a panel of speakers that will discuss a topic and answer audience questions.  For exact times in the relevant time-zones, see the [Neurostars Calendar](https://neurostars.org/t/professional-development-and-social-calendar/10496). They will be live streamed and recorded for later watching. Some sessions are duplicated to ensure coverage for students in different time-zones.
-
+These are hour-long live-streamed events with a panel of speakers that will discuss a topic and answer audience questions.  For times in the relevant time-zones, see the [Neurostars Calendar](https://neurostars.org/t/professional-development-and-social-calendar/10496). These sessions will be recorded for later replay. Some sessions are duplicated to ensure coverage for students in different time-zones. 
 
 ## Weekend 1: July 18 & 19
-|    Session   |   Speakers|    Description                                                         |
-|-------------------|--------------------|-----------------------------------------------------------------------|
-|   **2.1: Data Sharing and Management**| Dimitri Yatsenko (DataJoint), Edgar Walker (DataJoint), Ben Dichter (NWB)   |Software tools for efficient management, analysis, and sharing of experimental data. 
-|    **2.2: Data Sharing and Management**|  Russ Poldrack (Stanford) | Efficient data management and sharing strategies focusing on fMRI data.                                              
-|   **3.1 Open Science**  |  Nici Pfeiffer (COS), Mark Musen (CEDAR, Stanford)   | The Center for Open Science develops tools for project management, collaboration, preregistration, and data sharing. CEDAR enables investigators to author metadata, annotating experimental datasets to make data more findable, accessible, interoperable, and reusable (FAIR). 
-|   **4.1 Visualization**  |  Colin Prahl (Artist), Amy Robinson Stirling (Eyewire)  | Data Visualization and communication. Neuroscience-inspired art.     
-|    **5.1 Publishing**  |  Brett Mensh (Optimize Science)   | Maximizing the impact of your paper and the journal it gets into.
-|    **6.1 Philosophy**  |  Lisa Mirachi (U Penn)  |  What is the difference between “what a cognitive agent does” and “what processes happen inside an agent”? Lisa Miracchi, philosophy professor at UPenn, talks about how this distinction relates to selecting models.
-|    **6.2 Philosophy**  |  Lisa Mirachi (U Penn)  | What is the difference between “the content of representations” and “the content of perceptions and thoughts”? Lisa Miracchi, philosophy professor at UPenn, talks about Marr’s Computational Level and how these questions relate to what robots might internally represent.
-
-
+|   Session   |  Date |   Description                                                         |
+|-------------------|--------------------|----------------------------------------------------------------------|
+|   **2.1: Data Sharing and Management**| July 18, 13:00 UTC | Dimitri Yatsenko (DataJoint), Edgar Walker (DataJoint), Ben Dichter (NWB) <br>Software tools for efficient management, analysis, and sharing of experimental data.<br>[https://www.crowdcast.io/e/nma/18](https://www.crowdcast.io/e/nma/18)
+|    **2.2: Data Sharing and Management**| July 18, 23:00 UTC |  Russ Poldrack (Stanford)<br> Efficient data management and sharing strategies focusing on fMRI data. <br>[https://www.crowdcast.io/e/nma/20](https://www.crowdcast.io/e/nma/20)                                             
+|   **3.1 Open Science**  | July 19, 0:00 UTC | Nici Pfeiffer (COS), Mark Musen (CEDAR, Stanford)<br> The Center for Open Science develops tools for project management, collaboration, preregistration, and data sharing. CEDAR enables investigators to author metadata, annotating experimental datasets to make data more findable, accessible, interoperable, and reusable (FAIR). <br>[https://www.crowdcast.io/e/nma/21](https://www.crowdcast.io/e/nma/21)  
+|   **4.1 Visualization**  |July 18 16:00 UTC |  Colin Prahl (Artist), Amy Robinson Sterling (Eyewire), Helena Ledmyr (INCF)<br> Data Visualization and communication. Neuroscience-inspired art. <br>[https://www.crowdcast.io/e/nma/19](https://www.crowdcast.io/e/nma/19)      
+|    **5.1 Publishing**  |  July 19, 18:00 UTC|Brett Mensh (Optimize Science)<br>   Maximizing the impact of your paper and the journal it gets into.<br>[https://www.crowdcast.io/e/nma/24](https://www.crowdcast.io/e/nma/24) 
+|    **6.1 Philosophy**  |  July 19, 1:00 UTC|Lisa Miracchi (U Penn)<br>  What is the difference between “what a cognitive agent does” and “what processes happen inside an agent”? Lisa Miracchi, philosophy professor at UPenn, talks about how this distinction relates to selecting models.<br>[https://www.crowdcast.io/e/nma/22](https://www.crowdcast.io/e/nma/22) 
+|    **6.2 Philosophy**  | July 19, 15:00 UTC|  Lisa Miracchi (U Penn)<br> What is the difference between “the content of representations” and “the content of perceptions and thoughts”? Lisa Miracchi, philosophy professor at UPenn, talks about Marr’s Computational Level and how these questions relate to what robots might internally represent.<br>[https://www.crowdcast.io/e/nma/23](https://www.crowdcast.io/e/nma/23) 
 
 
 ## Weekend 2: July 25 & 26
-|    Session   |   Speakers|    Description                                                            |
+|    Session   |   Date|    Description                                                            |
 |-------------------|--------------------|-----------------------------------------------------------------------|
-|  **3.1 Open Science**  |  Nici Pfeiffer (COS), Mark Musen (CEDAR, Stanford)   | The Center for Open Science develops tools for project management, collaboration, preregistration, and data sharing. CEDAR enables investigators to author metadata, annotating experimental datasets to make data more findable, accessible, interoperable, and reusable (FAIR).      
-|   **7.1 Job Fair**  |  Facebook Reality Labs | Research careers at FRL, a  division of Facebook focused on creating the future of virtual and augmented reality. 
-|   **7.2 Job Fair**  |  Facebook Reality Labs | Research careers at FRL, a  division of Facebook focused on creating the future of virtual and augmented reality. 
-|   **8.1 Careers in Industry**  | Becky Clarkson (Apple), Kyle Frankovich (Insight Data Science), Kachi Odoememe (APL) | Research careers in industry. 
-|   **8.2 Careers in Industry**  | Feryal Behbahani (DeepMind), Sophie Kenny (Vpixx), Graeme Moffat (System2 Neurotechnology) | Research careers in industry.
-|   **9.1 Careers in Academia**  | Sripati Panditaradhyula Arun (IISc), Minhae Kwon (Soongsil University), Taro Toyoizumi (RIKEN) | Research careers in academia.
-|   **10.1 How We Built This**  | Patrick Mineault, Tara van Viegen, Michael Waskom, Madineh Sarvestani| 2000 students, 200 TAs, 200 volunteers, 20 days of content, 20 hours of video - how we built and launched NMA in 2 months.
+|  **1.1 Inclusive Neuroscience**  |  July 25, 16:00 UTC|  NMA Staff <br> A goal of the NMA is to lower the barriers for learning about neuroscience.  These barriers take many forms and this session will feature organizers discussing what we have done to make our platform more inclusive. We will wrap up with suggestions from students about how we can improve for next year. Bring your suggestions please!<br>[http://neuromatchacademy.org/stream](http://neuromatchacademy.org/stream)   
+|  **3.1 Open Science**  |  July 25, 15:00 UTC|  Nici Pfeiffer (COS), Mark Musen (CEDAR, Stanford) <br> The Center for Open Science develops tools for project management, collaboration, preregistration, and data sharing. CEDAR enables investigators to author metadata, annotating experimental datasets to make data more findable, accessible, interoperable, and reusable (FAIR).<br>[http://neuromatchacademy.org/stream](http://neuromatchacademy.org/stream)       
+|   **7.1 FRL Career Forum**  | July 26 01:00 UTC | Facebook Reality Labs (FRL) researchers, developers, and engineers are building the future of connection within AR/VR. Join our ‘FRL Career Forum’ to hear from our scientists about how we use computational neuroscience & machine learning – and from our recruiters about job opportunities. Excited to meet the many diverse talents from NMA! <br>[http://neuromatchacademy.org/stream](http://neuromatchacademy.org/stream)  
+|   **7.2 FRL Career Forum**  | July 26 14:00 UTC | Facebook Reality Labs (FRL) researchers, developers, and engineers are building the future of connection within AR/VR. Join our ‘FRL Career Forum’ to hear from our scientists about how we use computational neuroscience & machine learning – and from our recruiters about job opportunities. Excited to meet the many diverse talents from NMA! <br>[http://neuromatchacademy.org/stream](http://neuromatchacademy.org/stream)   
+|   **8.1 Careers in Industry** | July 25 20:00 UTC| Becky Clarkson (Apple), Kyle Frankovich (Insight Data Science), Kachi Odoememe (APL)<br> Research careers in industry. <br>[http://neuromatchacademy.org/stream](http://neuromatchacademy.org/stream)  
+|   **8.2 Careers in Industry**  | July 25 18:00 UTC| Feryal Behbahani (DeepMind), Sophie Kenny (Vpixx), Graeme Moffat (System2 Neurotechnology) <br>Research careers in industry.<br>[http://neuromatchacademy.org/stream](http://neuromatchacademy.org/stream)  
+|   **9.1 Careers in Academia**  | July 26 05:00 UTC | S.P. Arun (IISc), Minhae Kwon (Soongsil University), Taro Toyoizumi (RIKEN) <br> Research careers in academia.<br>[http://neuromatchacademy.org/stream](http://neuromatchacademy.org/stream)   
+|   **9.3 Careers in Academia**  | July 26 16:00 UTC  | Russ Poldrack (Stanford), Xiao-Jing Wang (NYU) <br> Research careers in academia.<br>[http://neuromatchacademy.org/stream](http://neuromatchacademy.org/stream)  
+|   **10.1 How We Built This**  | July 26 20:00 UTC | Ella Batty, Patrick Mineault, Madineh Sarvestani, Tara van Viegen, Michael Waskom, <br>2000 students, 200 TAs, 200 volunteers, 20 days of content, 20 hours of video - how we built and launched NMA in 2 months.<br>[http://neuromatchacademy.org/stream](http://neuromatchacademy.org/stream) 
+
 
 
 
